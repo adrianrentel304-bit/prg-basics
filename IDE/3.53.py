@@ -1,5 +1,9 @@
-fib = [0, 1]
-while len(fib) < 20:
-    fib.append(fib[-1] + fib[-2])
+a, b = 0, 1
 
-print(' '.join(map(str, fib)))
+for i in range(20):
+    print(f'{a}')
+    temp = a
+    a = b
+    b = temp + b
+
+print()

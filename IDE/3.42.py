@@ -1,6 +1,7 @@
-time_24 = input('Enter time (24-hour format hh:mm): ')
-hours, minutes = map(int, time_24.split(':'))
-
+time_24 = input('Enter time: ')
+hours_str, minutes_str = time_24.split(':')
+hours = int(hours_str)
+minutes = int(minutes_str)
 if hours == 0:
     time_12 = f'12:{minutes:02d}am'
 elif hours < 12:

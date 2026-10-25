@@ -1,4 +1,3 @@
-
 temperature = float(input("Enter temperature in Celsius: "))
 
 if temperature > 35:

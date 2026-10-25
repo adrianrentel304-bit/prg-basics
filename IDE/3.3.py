@@ -1,4 +1,3 @@
-
 total_tasks = 20
 tasks_ok = int(input('Enter number of correct tasks: '))
 test_passed = False

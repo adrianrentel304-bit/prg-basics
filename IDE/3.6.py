@@ -1,5 +1,3 @@
-
-
 size = input('Enter size symbol: ')
 
 if size == 'S':

@@ -1,9 +1,8 @@
-
 pin = "1234"
 balance = 1000
 attempts = 3
 while attempts > 0:
-    entered_pin = input("Enter 4-digit PIN: ")
+    entered_pin = input("PIN: ")
     if len(entered_pin) == 4 and entered_pin.isdigit() and entered_pin == pin:
         print("PIN correct!")
         break
@@ -15,7 +14,7 @@ else:
     exit()
 
 while True:
-    print("\n1. Check Balance\n2. Deposit\n3. Withdraw\n4. Change PIN\n5. Exit")
+    print("\n1.Balance\n2. Deposit\n3. Withdraw\n4. Change PIN\n5. Exit")
     choice = input("Choose option: ")
     
     if choice == '1':

@@ -1,4 +1,3 @@
-
 plain_text = 'The early bird catches the worm'
 encrypted_text = ''
 

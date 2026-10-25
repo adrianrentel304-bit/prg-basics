@@ -1,4 +1,3 @@
-
 month = int(input('Enter month number (1..12): '))
 day = int(input('Enter the day number of the month: '))
 day_ok = False

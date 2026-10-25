@@ -1,4 +1,3 @@
-
 login = 'joe'
 password = 'abcd'
 entered_login = input('Login: ')

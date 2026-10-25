@@ -1,4 +1,3 @@
-
 person1_name = input('Enter first person name: ')
 person1_age = int(input('Enter first person age: '))
 person2_name = input('Enter second person name: ')

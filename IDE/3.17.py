@@ -1,4 +1,3 @@
-
 university = 'Krakow University of Economics'
 university_expanded = ''
 

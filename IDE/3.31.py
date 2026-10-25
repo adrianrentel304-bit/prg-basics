@@ -1,4 +1,4 @@
-hours = int(input("Enter parked hours: "))
+hours = int(input("Parked hours: "))
 
 if 1 <= hours <= 2:
     fee = 5

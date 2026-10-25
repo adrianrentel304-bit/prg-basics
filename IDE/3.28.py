@@ -1,6 +1,5 @@
-
-light_switch1 = True   # Switch 1 lights 1 bulb
-light_switch2 = True   # Switch 2 lights 2 bulbs
+light_switch1 = True
+light_switch2 = True
 bulbs_on = 0
 
 if light_switch1:

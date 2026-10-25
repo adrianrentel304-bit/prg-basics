@@ -1,4 +1,3 @@
-
 account_balance = 500
 total_payment = int(input('Enter purchase amount: '))
 

@@ -1,4 +1,3 @@
-
 total_washing_time = 0
 program = input('Select washing program: (j)acket, (u)nderwear, (s)hoes: ')
 extra_rinse = input('Extra rinse? (y/n): ') == 'y'

@@ -1,9 +1,9 @@
 
-number = int(input('Enter number: '))
+number = int(input('Podaj Liczbę '))
 
 if number > 0:
-    print(f'Number {number} is positive')
+    print(f'Liczba {number} jest dodatnia')
 elif number < 0:
-    print(f'Number {number} is negative')
+    print(f'Liczba {number} jest ujemna')
 else:
-    print('Number is 0')
+    print('0')

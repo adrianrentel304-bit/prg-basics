@@ -1,4 +1,3 @@
-
 month = int(input('Enter month number (1..12): '))
 
 if month >= 10:

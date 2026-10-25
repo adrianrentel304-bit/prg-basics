@@ -1,4 +1,4 @@
-num = int(input('Enter decimal number: '))
+num = int(input('Decimal number: '))
 original = num
 binary = ''
 
@@ -9,4 +9,4 @@ else:
         binary = str(num % 2) + binary
         num = num // 2
 
-print(f'{original}(10) = {binary}(2)')
+print(f'{original} - In decimal = {binary} - In binary')
